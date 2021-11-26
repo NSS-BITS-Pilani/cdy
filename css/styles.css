@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.s1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4)), url(../assets/cdy1.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.s2 {
+  background-image: url(../assets/cdy2.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.s3 {
+  background-image: url(../assets/mask.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.s4 {
+  background-image: url(../assets/cdy4.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.cdylogo{
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.section h1{
+  font-size: 3rem;
+  text-align: center;
+  position: absolute;
+  font-family: 'PT Serif', serif;  
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, rgb(247, 228, 62), rgb(240, 150, 14));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s3 h1{
+  top: 60%;
+  transform: translate(-50%, -60%);
+}
+
+#fp-nav span{
+  background: white !important;
+  border: 3px solid black !important;
+}
+
+.comingsoon{
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section h1{
+    font-size: 2rem;
+  }
+  .comingsoon{
+    font-size: 1.5rem;
+  }
+}
+
